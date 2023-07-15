@@ -76,7 +76,7 @@ def respond(voice_data):
     # 2: name
     if there_exists(["what is your name","what's your name","tell me your name"]):
         if person_obj.name:
-            engine_speak("Hey I am hazel by the way what is your name ")
+            engine_speak("Hey I am JARVIS by the way what is your name ")
         else:
             engine_speak("i dont know my name . what's your name?")
 
